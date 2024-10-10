@@ -1,0 +1,47 @@
+.container1{
+    width: 80%;
+    min-height: 800px;
+    margin: 0 auto;
+    background-color: hsl(211, 37%, 55%);
+    display: flex; /* konteineryje esancius elementus isdesto eilutemis ar stulpeliais*/
+    /*flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;*/
+    flex-flow: row-reverse wrap; /*sujungia flex-direction ir flex-wrap*/
+    justify-content: space-evenly; /*center|flex-start|flex-end|space-between|space-around */
+    align-items: center;/* flex-start|flex-end|stretch|baseline*/
+    /*naudojant align-items nenustatyti bloko aukscio, kad turetu, kur plestis*/
+    align-content: center;/* flex-start|flex-end|stretch|baseline*/
+}
+
+.block1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(31, 83%, 46%);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    /*order
+    flex-grow
+    flex-shrink
+    flex-basis
+    align-self*/
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #7fffd4;
+    display: flex; 
+    flex-flow: row-reverse wrap;
+}
+
+.block{
+    width: 200px;
+    height: 200px;
+    background-color: #ffe4c4;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
